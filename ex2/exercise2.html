@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercise2</title>
+    <link rel="stylesheet" href="./exercise2.css" />
+  </head>
+  <body>
+    <form id="formAdd" class="form-flex">
+      <div class="header"><h3>Thêm mới tài khoản</h3></div>
+      <div class="main">
+        <div class="main-left">
+          <div class="main-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="main-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+          </div>
+          <div class="main-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+          </div>
+        </div>
+        <div class="main-right">
+          <div class="main-group">
+            <label for="">Giới tính</label>
+            <div class="radio">
+              <input checked name="gender" type="radio" />Nam
+              <input name="gender" type="radio" />Nữ
+              <input name="gender" type="radio" />Khác
+            </div>
+          </div>
+          <div class="main-group">
+            <label for="date">Ngày sinh</label>
+            <input type="date" id="date" />
+          </div>
+          <div class="main-group">
+            <label for="select">Lớp</label>
+            <select name="" id="select">
+              <option value="12a1">12A1</option>
+              <option value="12a2">12A2</option>
+              <option value="12a3">12A3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="main-group">
+          <label for="">Địa chỉ</label>
+          <input type="text" />
+        </div>
+        <hr />
+        <div class="button-group">
+          <button class="button" id="btnCancel">Huỷ</button>
+          <button class="button" id="btnAdd">Thêm</button>
+        </div>
+      </div>
+    </form>
+    <script src="./exercise2.js"></script>
+  </body>
+</html>
